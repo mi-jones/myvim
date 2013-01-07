@@ -1,4 +1,6 @@
 " much of this content was retrieved from www.youtube.com/watch?v=YhqsjUUHj6g
+" currently at 22:53 in the video
+
 autocmd! bufwritepost .vimrc source %
 set runtimepath=~/.vim,$VIM/vimfiles,$VIMRUNTIME,$VIM/vimfiles/after,~/.vim/after
 
