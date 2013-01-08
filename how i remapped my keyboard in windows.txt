@@ -1,0 +1,1 @@
+from http://www.microsoft.com/en-us/download/details.aspx?id=17657 downloaded/installed windows server 2003 resource kit, which gives me the utility called 'remapkey' which can be run from command line.
