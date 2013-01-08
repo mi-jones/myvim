@@ -1,6 +1,11 @@
 " much of this content was retrieved from www.youtube.com/watch?v=YhqsjUUHj6g
 " currently at 22:53 in the video
 
+" map ESC to jk as a convenience short cut'
+imap jk <ESC>
+"imap ii <ESC>
+"also remember that CTRL+[ and CTRL-c also are mapped as ESC by default
+
 autocmd! bufwritepost .vimrc source %
 set runtimepath=~/.vim,$VIM/vimfiles,$VIMRUNTIME,$VIM/vimfiles/after,~/.vim/after
 
