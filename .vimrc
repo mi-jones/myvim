@@ -106,4 +106,5 @@ let g:pymode_syntax_builtin_objs = 0
 let g:pymode_syntax_buildin_funcs = 0
 map <Leader>b Oimport ipdb; ipdb.set_trace() # BREAKPOINT<C-c>
 
-
+" Syntax highlighting of json files based on javascript highlighting
+autocmd BufNewFile,BufRead *.json set ft=javascript
