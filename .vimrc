@@ -56,6 +56,11 @@ set fo-=t	" don't automatically wrap text when typing
 set colorcolumn=80
 highlight ColorColumn ctermbg=233
 
+" enhances the experience when typing pathnames with :e <path>, 
+" it's like ido-mode in emacs
+set wildmenu
+set wildmode=list:longest
+
 " easier formatting of paragraphs
 vmap Q gq
 nmap Q gqap
