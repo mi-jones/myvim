@@ -5,7 +5,7 @@
 " haridas.in/vim-as-your-ide.html
 " dancingpenguinsoflight.com/2009/02/python-and-vim-make-your-own-ide/
 " https://github.com/scrooloose/syntastic
-"
+" vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen
 
 imap jk <ESC>
 "imap ii <ESC>
