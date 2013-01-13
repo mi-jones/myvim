@@ -149,3 +149,5 @@ inoremap <silent><C-k> <C-R>=OmniPopup('k')<CR>
 " wget -O ~\.vim\ftplugin\python_editing.vim (didnt get the rest of the screen)
 set nofoldenable
 
+"let g:pyflakes_use_quickfix = 0
+let g:pep8_map='<leader>8'
