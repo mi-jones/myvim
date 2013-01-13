@@ -1,13 +1,31 @@
 " much of this content was retrieved from www.youtube.com/watch?v=YhqsjUUHj6g
 " currently at 22:53 in the video
+"
+" sontek.net/blog/detail/turning-vim-into-a-modern-python-ide
+" haridas.in/vim-as-your-ide.html
+" dancingpenguinsoflight.com/2009/02/python-and-vim-make-your-own-ide/
+" https://github.com/scrooloose/syntastic
+"
 
-" map ESC to jk as a convenience short cut'
 imap jk <ESC>
 "imap ii <ESC>
 "also remember that CTRL+[ and CTRL-c also are mapped as ESC by default
 
 autocmd! bufwritepost .vimrc source %
 set runtimepath=~/.vim,$VIM/vimfiles,$VIMRUNTIME,$VIM/vimfiles/after,~/.vim/after
+
+filetype off
+
+" setup pathogen to manage my plugins
+call pathogen#infect()
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
+" Enable syntax highlighting
+filetype plugin on
+filetype on
+filetype plugin indent on
+syntax on
 
 " Better copy & paste
 set pastetoggle=<F2>
@@ -43,11 +61,6 @@ set t_Co=256
 "color wombat256mod
 color molokai
 
-" Enable syntax highlighting
-filetype off
-filetype plugin indent on
-syntax on
-
 " showing line numbers and length
 set number	" show line numbers
 set tw=79	" width of document (used by gd)
@@ -55,6 +68,9 @@ set nowrap	" don't automatically wrap on load
 set fo-=t	" don't automatically wrap text when typing
 set colorcolumn=80
 highlight ColorColumn ctermbg=233
+
+" syntastic pep8 support
+"let g:syntastic_python_checker = 'pylint'
 
 " enhances the experience when typing pathnames with :e <path>, 
 " it's like ido-mode in emacs
@@ -84,8 +100,6 @@ set smartcase
 
 set guifont=Consolas:h11:cANSI
 
-" setup pathogen to manage my plugins
-call pathogen#infect()
 
 " =============================================================================
 " Python IDE Setup
