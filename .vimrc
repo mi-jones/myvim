@@ -111,5 +111,29 @@ let g:pymode_syntax_builtin_objs = 0
 let g:pymode_syntax_buildin_funcs = 0
 map <Leader>b Oimport ipdb; ipdb.set_trace() # BREAKPOINT<C-c>
 
+<<<<<<< Updated upstream
 " Syntax highlighting of json files based on javascript highlighting
 autocmd BufNewFile,BufRead *.json set ft=javascript
+=======
+" Better navigating through omnicomplete option list
+set completeopt=longest,menuone
+function! OmniPopup(action)
+    if pumvisible()
+        if a:action == 'j'
+            return "\<C-N>"
+        elseif a:action == 'k'
+            return "\<C-P>"
+        endif
+    endif
+    return a:action
+endfunction
+
+inoremap <silent><C-j> <C-R>=OmniPopup('j')<CR>
+inoremap <silent><C-k> <C-R>=OmniPopup('k')<CR>
+
+" Python folding
+" mkdir -p ~\.vim\ftplugin
+" wget -O ~\.vim\ftplugin\python_editing.vim (didnt get the rest of the screen)
+set nofoldenable
+
+>>>>>>> Stashed changes
