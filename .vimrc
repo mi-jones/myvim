@@ -22,10 +22,10 @@ call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
 " Enable syntax highlighting
+syntax on
 filetype plugin on
 filetype on
 filetype plugin indent on
-syntax on
 
 " Better copy & paste
 set pastetoggle=<F2>
@@ -149,5 +149,7 @@ inoremap <silent><C-k> <C-R>=OmniPopup('k')<CR>
 " wget -O ~\.vim\ftplugin\python_editing.vim (didnt get the rest of the screen)
 set nofoldenable
 
-"let g:pyflakes_use_quickfix = 0
+"let g:pylint_use_quickfix = 0
+let g:PyLintCWindow = 1
+let g:PyLintSigns = 1
 let g:pep8_map='<leader>8'
