@@ -19,3 +19,6 @@
 [submodule ".vim/bundle/pylint-mode"]
 	path = .vim/bundle/pylint-mode
 	url = https://github.com/vim-scripts/pylint-mode.git
+[submodule ".vim/bundle/ropevim"]
+	path = .vim/bundle/ropevim
+	url = https://github.com/sontek/rope-vim.git
