@@ -4,3 +4,9 @@
 [submodule "vim-powerline"]
 	path = vim-powerline
 	url = https://github.com/Lokaltog/vim-powerline.git
+[submodule ".vim/bundle/vim-powerline"]
+	path = .vim/bundle/vim-powerline
+	url = https://github.com/Lokaltog/vim-powerline.git
+[submodule ".vim/bundle/makegreen"]
+	path = .vim/bundle/makegreen
+	url = https://github.com/reinh/vim-makegreen.git
