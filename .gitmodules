@@ -16,3 +16,6 @@
 [submodule "pylint-mode"]
 	path = pylint-mode
 	url = https://github.com/vim-scripts/pylint-mode.git
+[submodule ".vim/bundle/pylint-mode"]
+	path = .vim/bundle/pylint-mode
+	url = https://github.com/vim-scripts/pylint-mode.git
