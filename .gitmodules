@@ -22,3 +22,6 @@
 [submodule ".vim/bundle/ropevim"]
 	path = .vim/bundle/ropevim
 	url = https://github.com/sontek/rope-vim.git
+[submodule ".vim/bundle/rope"]
+	path = .vim/bundle/rope
+	url = https://github.com/klen/rope-vim.git
