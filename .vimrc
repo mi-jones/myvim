@@ -98,7 +98,7 @@ set incsearch
 set ignorecase
 set smartcase
 
-set guifont=Consolas:h11:cANSI
+set guifont=Consolas:h10:cANSI
 
 
 " =============================================================================
