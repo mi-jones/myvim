@@ -59,7 +59,8 @@ vnoremap > >gv	" better indentation
 " Color scheme
 set t_Co=256
 "color wombat256mod
-color molokai
+"color molokai
+color summerfruit256
 
 " showing line numbers and length
 set number	" show line numbers
