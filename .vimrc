@@ -70,10 +70,6 @@ set fo-=t	" don't automatically wrap text when typing
 set colorcolumn=80
 highlight ColorColumn ctermbg=233
 
-" Pylint-Mode settings
-let g:PyLintSigns = 1
-let g:PyLintDissabledMessages = 'C0103,C0111,C0301,W0142,W0212,E1120,R0904'
-
 " enhances the experience when typing pathnames with :e <path>, 
 " it's like ido-mode in emacs
 set wildmenu
