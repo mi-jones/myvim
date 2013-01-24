@@ -153,3 +153,7 @@ set nofoldenable
 
 let g:pep8_map='<leader>8'
 
+" run external cmd pylint, and redirect the output to a new buffer
+nmap <leader>9 :new \| r ! pylint #<CR><CR>gg
+
+
