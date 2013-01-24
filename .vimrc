@@ -129,6 +129,10 @@ map <Leader>b Oimport ipdb; ipdb.set_trace() # BREAKPOINT<C-c>
 " Syntax highlighting of json files based on javascript highlighting
 autocmd BufNewFile,BufRead *.json set ft=javascript
 
+" automatically set nose as compiler for .py files
+autocmd BufNewFile,BufRead *.py compiler nose
+map <leader>t :MakeGreen<CR>
+
 " Better navigating through omnicomplete option list
 set completeopt=longest,menuone
 function! OmniPopup(action)
@@ -151,3 +155,4 @@ inoremap <silent><C-k> <C-R>=OmniPopup('k')<CR>
 set nofoldenable
 
 let g:pep8_map='<leader>8'
+
