@@ -8,6 +8,7 @@
 " vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen
 
 imap jk <ESC>
+imap JK <ESC>
 "imap ii <ESC>
 "also remember that CTRL+[ and CTRL-c also are mapped as ESC by default
 
@@ -64,10 +65,10 @@ color summerfruit256
 
 " showing line numbers and length
 set number	" show line numbers
-set tw=79	" width of document (used by gd)
+"set tw=79	" width of document (used by gd)
 set nowrap	" don't automatically wrap on load
 set fo-=t	" don't automatically wrap text when typing
-set colorcolumn=80
+"set colorcolumn=80
 highlight ColorColumn ctermbg=233
 
 " enhances the experience when typing pathnames with :e <path>, 
