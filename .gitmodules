@@ -28,3 +28,6 @@
 [submodule ".vim/bundle/Colour-Sampler-Pack"]
 	path = .vim/bundle/Colour-Sampler-Pack
 	url = https://github.com/vim-scripts/Colour-Sampler-Pack.git
+[submodule ".vim/bundle/ctrlp"]
+	path = .vim/bundle/ctrlp
+	url = https://github.com/kien/ctrlp.vim.git

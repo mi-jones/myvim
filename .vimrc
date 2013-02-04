@@ -108,10 +108,17 @@ set guifont=Consolas:h10:cANSI
 set laststatus=2
 
 " Settings for ctrlp
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP C:\dev\cnsmrtms\'
 let g:ctrlp_max_height = 30
+let g:ctrlp_max_files = 30000
 set wildignore+=*.prc
 set wildignore+=*_build/*
 set wildignore+=*/coverage/*
+let g:ctrlp_custom_ignore = {
+    \ 'dir':  '\.git$\|\.hg$\|\.svn$\|data\|log\|tmp$',
+    \ 'file': '\.exe$\|\.so$\|\.dat$\|\.pyc$\|.data$'
+    \ }
 
 " Settings for python-mode
 map <Leader>g :call RopeGotoDefinition()<CR>
@@ -129,7 +136,7 @@ autocmd BufNewFile,BufRead *.json set ft=javascript
 
 " automatically set nose as compiler for .py files
 autocmd BufNewFile,BufRead *.py compiler nose
-map <leader>t :MakeGreen<CR>
+map <leader>u :MakeGreen<CR>
 
 " Better navigating through omnicomplete option list
 set completeopt=longest,menuone
