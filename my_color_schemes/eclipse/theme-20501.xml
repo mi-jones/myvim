@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<colorTheme id="20501" name="base16-default-dark" modified="2013-09-29 18:23:39" author="A">
+    <searchResultIndication color="#505050" />
+    <filteredSearchResultIndication color="#505050" />
+    <occurrenceIndication color="#505050" />
+    <writeOccurrenceIndication color="#505050" />
+    <findScope color="#505050" />
+    <deletionIndication color="#AC4142" />
+    <sourceHoverBackground color="#505050" />
+    <singleLineComment color="#808080" italic="false" />
+    <multiLineComment color="#808080" italic="false" />
+    <commentTaskTag color="#B0B0B0" italic="false" />
+    <javadoc color="#808080" italic="false" />
+    <javadocLink color="#B0B0B0" italic="false" />
+    <javadocTag color="#B0B0B0" italic="false" />
+    <javadocKeyword color="#B0B0B0" italic="false" />
+    <class color="#F4BF75" bold="false" underline="false" strikethrough="false" />
+    <interface color="#D197D9" />
+    <method color="#6A9FB5" />
+    <methodDeclaration color="#6A9FB5" />
+    <bracket color="#D0D0D0" />
+    <number color="#D28445" />
+    <string color="#90A959" />
+    <operator color="#D8D8D8" />
+    <keyword color="#AA759F" bold="false" />
+    <annotation color="#F5F5F5" />
+    <staticMethod color="#75B5AA" />
+    <localVariable color="#AC4142" />
+    <localVariableDeclaration color="#AC4142" />
+    <field color="#6A9FB5" />
+    <staticField color="#6A9FB5" />
+    <staticFinalField color="#6A9FB5" />
+    <deprecatedMember color="#AC4142" underline="false" strikethrough="true" />
+    <enum color="#90A959" />
+    <inheritedMethod color="#75B5AA" />
+    <abstractMethod color="#75B5AA" />
+    <parameterVariable color="#6A9FB5" />
+    <typeArgument color="#AA759F" />
+    <typeParameter color="#AA759F" />
+    <constant color="#F4BF75" />
+    <background color="#151515" />
+    <currentLine color="#303030" />
+    <foreground color="#D0D0D0" />
+    <lineNumber color="#D0D0D0" />
+    <selectionBackground color="#303030" />
+    <selectionForeground color="#E0E0E0" />
+</colorTheme>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<colorTheme id="6070" name="Tomorrow Original by Chris Kempson" modified="2012-02-13 15:15:00" author="Mich Geek">
+    <searchResultIndication color="#EAB700" />
+    <filteredSearchResultIndication color="#EAB700" />
+    <occurrenceIndication color="#D6D6D6" />
+    <writeOccurrenceIndication color="#EAB700" />
+    <findScope color="#EAB700" />
+    <deletionIndication color="#D25252" />
+    <sourceHoverBackground color="#000000" />
+    <singleLineComment color="#8E908C" italic="true" />
+    <multiLineComment color="#8E908C" italic="true" />
+    <commentTaskTag color="#8959A8" italic="true" />
+    <javadoc color="#8E908C" bold="true" italic="true" />
+    <javadocLink color="#8959A8" italic="false" />
+    <javadocTag color="#8959A8" italic="false" />
+    <javadocKeyword color="#8959A8" italic="true" />
+    <class color="#EAB700" bold="false" underline="false" strikethrough="false" />
+    <interface color="#4271AE" />
+    <method color="#4271AE" />
+    <methodDeclaration color="#4271AE" />
+    <bracket color="#4D4D4C" />
+    <number color="#F5871F" />
+    <string color="#4D4D4C" />
+    <operator color="#4271AE" />
+    <keyword color="#8959A8" bold="false" />
+    <annotation color="#FFFFFF" />
+    <staticMethod color="#4271AE" />
+    <localVariable color="#C82829" />
+    <localVariableDeclaration color="#C82829" />
+    <field color="#F5871F" />
+    <staticField color="#EFC090" />
+    <staticFinalField color="#EFC090" />
+    <deprecatedMember color="#D25252" underline="false" strikethrough="true" />
+    <enum color="#718C00" />
+    <inheritedMethod color="#4271AE" />
+    <abstractMethod color="#4271AE" />
+    <parameterVariable color="#79ABFF" />
+    <typeArgument color="#BFA4A4" />
+    <typeParameter color="#BFA4A4" />
+    <constant color="#EFC090" />
+    <background color="#FFFFFF" />
+    <currentLine color="#EFEFEF" />
+    <foreground color="#4D4D4C" />
+    <lineNumber color="#4D4D4C" />
+    <selectionBackground color="#D6D6D6" />
+    <selectionForeground color="#4271AE" />
+</colorTheme>

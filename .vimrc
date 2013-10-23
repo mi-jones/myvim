@@ -61,7 +61,13 @@ vnoremap > >gv	" better indentation
 set t_Co=256
 "color wombat256mod
 "color molokai
-color summerfruit256
+"color summerfruit256
+set background=dark
+color base16-default
+
+"zenburn settings:
+"let g:zenburn_high_Contrast=1
+"color zenburn
 
 " showing line numbers and length
 set number	" show line numbers
@@ -97,7 +103,7 @@ set incsearch
 set ignorecase
 set smartcase
 
-set guifont=Consolas:h10:cANSI
+" set guifont=Consolas:h10:cANSI
 
 
 " =============================================================================
