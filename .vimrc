@@ -58,12 +58,20 @@ vnoremap < <gv	" better indentation
 vnoremap > >gv	" better indentation
 
 " Color scheme
-set t_Co=256
+"set t_Co=256
 "color wombat256mod
 "color molokai
 "color summerfruit256
+"set background=dark
+"color molokai
+
+" solarized settings
+set t_Co=16
+set bg=dark
 set background=dark
-color base16-default
+let g:solarized_termcolors=256
+let g:solarized_termtrans=1
+color solarized
 
 "zenburn settings:
 "let g:zenburn_high_Contrast=1
