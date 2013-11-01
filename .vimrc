@@ -136,7 +136,8 @@ let g:ctrlp_custom_ignore = {
     \ }
 
 " Settings for python-mode
-map <Leader>g :call RopeGotoDefinition()<CR>
+"map <Leader>g :call RopeGotoDefinition()<CR>
+map <Leader>g :JavaSearchContext<CR>
 let ropevim_enable_shortcuts = 1
 let g:pymode_rope_goto_def_newwin = "vnew"
 let g:pymode_rope_extended_complete = 1
@@ -144,7 +145,7 @@ let g:pymode_breakpoint = 0
 let g:pymode_syntax = 1
 let g:pymode_syntax_builtin_objs = 0
 let g:pymode_syntax_buildin_funcs = 0
-map <Leader>b Oimport ipdb; ipdb.set_trace() # BREAKPOINT<C-c>
+"map <Leader>b Oimport ipdb; ipdb.set_trace() # BREAKPOINT<C-c>
 
 " Syntax highlighting of json files based on javascript highlighting
 autocmd BufNewFile,BufRead *.json set ft=javascript
@@ -171,6 +172,8 @@ inoremap <silent><C-k> <C-R>=OmniPopup('k')<CR>
 
 "let g:SuperTabDefaultCompletionType = "<c-x><c-u>"
 let g:SuperTabDefaultCompletionType = 'context'
+let g:SuperTabMappingForward = '<nul>'
+let g:SuperTabMappingBackward = '<s-nul>'
 
 " Python folding
 " mkdir -p ~\.vim\ftplugin
