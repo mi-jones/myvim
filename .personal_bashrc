@@ -1,0 +1,6 @@
+export PATH=~/ide/adt-bundle-linux-x86_64-20130917/sdk/platform-tools/:$PATH
+export TERM=xterm-256color
+
+eval `dircolors ~/dircolors.ansi-dark`
+function gvim () { (/usr/bin/gvim -f "$@" &) }
+

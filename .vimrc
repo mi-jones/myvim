@@ -16,6 +16,7 @@ autocmd! bufwritepost .vimrc source %
 set runtimepath=~/.vim,$VIM/vimfiles,$VIMRUNTIME,$VIM/vimfiles/after,~/.vim/after
 
 filetype off
+set nocompatible
 
 " setup pathogen to manage my plugins
 call pathogen#infect()
@@ -67,11 +68,11 @@ vnoremap > >gv	" better indentation
 
 " solarized settings
 set t_Co=16
-set bg=dark
+"set bg=dark
 set background=dark
-let g:solarized_termcolors=256
-let g:solarized_termtrans=1
-color solarized
+"let g:solarized_termcolors=256
+"let g:solarized_termtrans=1
+colorscheme solarized
 
 "zenburn settings:
 "let g:zenburn_high_Contrast=1
@@ -123,15 +124,15 @@ set laststatus=2
 
 " Settings for ctrlp
 let g:ctrlp_map = '<c-p>'
-let g:ctrlp_cmd = 'CtrlP C:\dev\cnsmrtms\'
+let g:ctrlp_cmd = 'CtrlP /ssd/tf/'
 let g:ctrlp_max_height = 30
 let g:ctrlp_max_files = 30000
 set wildignore+=*.prc
 set wildignore+=*_build/*
 set wildignore+=*/coverage/*
 let g:ctrlp_custom_ignore = {
-    \ 'dir':  '\.git$\|\.hg$\|\.svn$\|data\|log\|tmp$',
-    \ 'file': '\.exe$\|\.so$\|\.dat$\|\.pyc$\|.data$'
+    \ 'dir':  '\.git$\|\.hg$\|\.svn\|build\|review$',
+    \ 'file': '\.exe$\|\.so$\|\.dat$\|\.class$\|\.pyc$\|\.data$\|\.dll$\'
     \ }
 
 " Settings for python-mode
@@ -167,6 +168,9 @@ endfunction
 
 inoremap <silent><C-j> <C-R>=OmniPopup('j')<CR>
 inoremap <silent><C-k> <C-R>=OmniPopup('k')<CR>
+
+"let g:SuperTabDefaultCompletionType = "<c-x><c-u>"
+let g:SuperTabDefaultCompletionType = 'context'
 
 " Python folding
 " mkdir -p ~\.vim\ftplugin
