@@ -152,7 +152,8 @@ autocmd BufNewFile,BufRead *.json set ft=javascript
 
 " automatically set nose as compiler for .py files
 autocmd BufNewFile,BufRead *.py compiler nose
-map <leader>u :MakeGreen<CR>
+"map <leader>u :MakeGreen<CR>
+map <leader>u :JUnit %<CR><CR>
 
 " Better navigating through omnicomplete option list
 set completeopt=longest,menuone
