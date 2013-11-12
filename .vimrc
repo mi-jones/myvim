@@ -17,6 +17,7 @@ set runtimepath=~/.vim,$VIM/vimfiles,$VIMRUNTIME,$VIM/vimfiles/after,~/.vim/afte
 
 filetype off
 set nocompatible
+set encoding=utf-8
 
 " setup pathogen to manage my plugins
 call pathogen#infect()
@@ -83,7 +84,7 @@ set number	" show line numbers
 "set tw=79	" width of document (used by gd)
 set nowrap	" don't automatically wrap on load
 set fo-=t	" don't automatically wrap text when typing
-"set colorcolumn=80
+set colorcolumn=100
 highlight ColorColumn ctermbg=233
 
 " enhances the experience when typing pathnames with :e <path>, 
@@ -131,7 +132,7 @@ set wildignore+=*.prc
 set wildignore+=*_build/*
 set wildignore+=*/coverage/*
 let g:ctrlp_custom_ignore = {
-    \ 'dir':  '\.git$\|\.hg$\|\.svn\|build\|review$',
+    \ 'dir':  '\.git$\|\.hg$\|\.svn\|review$',
     \ 'file': '\.exe$\|\.so$\|\.dat$\|\.class$\|\.pyc$\|\.data$\|\.dll$\'
     \ }
 
