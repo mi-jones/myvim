@@ -114,7 +114,7 @@ set ignorecase
 set smartcase
 
 " set guifont=Consolas:h10:cANSI
-
+set guifont=DejaVu\ Sans\ Mono\ 10
 
 " =============================================================================
 " Python IDE Setup
@@ -187,4 +187,5 @@ let g:pep8_map='<leader>8'
 " run external cmd pylint, and redirect the output to a new buffer
 nmap <leader>9 :new \| r ! pylint #<CR><CR>gg
 
+map <Leader>t :e ~/todo<CR>
 
