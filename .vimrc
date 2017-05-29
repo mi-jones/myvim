@@ -73,7 +73,8 @@ set t_Co=16
 set background=dark
 "let g:solarized_termcolors=256
 "let g:solarized_termtrans=1
-colorscheme solarized
+colorscheme SweetCandy
+colorscheme monokai-chris
 
 "zenburn settings:
 "let g:zenburn_high_Contrast=1
@@ -101,11 +102,12 @@ set history=700
 set undolevels=700
 
 " real programmers on't use TABs but spaces
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
 set shiftround
 set expandtab
+set autoindent
 
 " Make search case insensitive
 set hlsearch
@@ -189,3 +191,4 @@ nmap <leader>9 :new \| r ! pylint #<CR><CR>gg
 
 map <Leader>t :e ~/todo<CR>
 
+set nobackup
