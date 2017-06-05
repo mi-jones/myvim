@@ -48,6 +48,10 @@ map <c-k> <c-w>k
 map <c-l> <c-w>l
 map <c-h> <c-w>h
 
+" Horizontal and Vertical splits
+nnoremap <Leader>v <C-w>v
+nnoremap <Leader>h <C-w>s
+
 " easier moving between tabs
 map <Leader>n <esc>:tabprevious<CR>
 map <Leader>m <esc>:tabnext<CR>
