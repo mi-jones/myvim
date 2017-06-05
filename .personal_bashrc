@@ -79,3 +79,9 @@ eval `dircolors ~/dircolors.ansi-dark`
 function gvim () { (/usr/bin/gvim -f "$@" &) }
 
 export PATH=/usr/lib/google-dartlang/bin:${PATH}
+
+export TMUX_POWERLINE_SEG_WEATHER_LOCATION="23396898"
+
+# provide present working directory to tmux so that it can display git branch information
+PS1="$PS1"'$([ -n "$TMUX" ] && tmux setenv TMUXPWD_$(tmux display -p "#D" | tr -d %) "$PWD")'
+
