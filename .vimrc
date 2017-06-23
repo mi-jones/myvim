@@ -112,6 +112,10 @@ set shiftwidth=2
 set shiftround
 set expandtab
 set autoindent
+set ts=2
+set sts=2
+set sw=2
+set smarttab
 
 " Make search case insensitive
 set hlsearch
